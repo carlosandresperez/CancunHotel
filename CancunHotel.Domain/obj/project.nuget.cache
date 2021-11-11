@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JfJ/zGIJF2o11zDr5HWCZZGKPWlC7cz+m6Fa8L2sxSCu2xA0HaYqjY7NGr2txJB49NR5U6ls25R/DGbYTEENtA==",
+  "dgSpecHash": "3EuXOoz6nrptKEHemImOg3m/2gjTAiWxxlc1iUb27bMGfsVhtq1dhM9wYd9Ih1G10w+VmuuTGmjdrj3B7sPoWg==",
   "success": true,
-  "projectFilePath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
+  "projectFilePath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

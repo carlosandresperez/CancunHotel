@@ -10,3 +10,15 @@
 /Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.dll
 /Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/ref/CancunHotel.Shared.dll
 /Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.pdb
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/bin/Debug/net5.0/CancunHotel.Shared.deps.json
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/bin/Debug/net5.0/CancunHotel.Shared.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/bin/Debug/net5.0/ref/CancunHotel.Shared.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/bin/Debug/net5.0/CancunHotel.Shared.pdb
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.csproj.AssemblyReference.cache
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.AssemblyInfoInputs.cache
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.AssemblyInfo.cs
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.csproj.CoreCompileInputs.cache
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/ref/CancunHotel.Shared.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/Debug/net5.0/CancunHotel.Shared.pdb

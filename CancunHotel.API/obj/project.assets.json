@@ -265,11 +265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.API/CancunHotel.API.csproj",
+      "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/CancunHotel.API.csproj",
       "projectName": "CancunHotel.API",
-      "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.API/CancunHotel.API.csproj",
+      "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/CancunHotel.API.csproj",
       "packagesPath": "/Users/carlosandres/.nuget/packages/",
-      "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.API/obj/",
+      "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/carlosandres/.config/NuGet/NuGet.Config"
@@ -284,14 +284,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
-              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj"
+            "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
+              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj"
             },
-            "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj": {
-              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj"
+            "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj": {
+              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj"
             },
-            "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj": {
-              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj"
+            "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj": {
+              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj"
             }
           }
         }

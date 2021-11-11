@@ -10,3 +10,15 @@
 /Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.dll
 /Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/ref/CancunHotel.Domain.dll
 /Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.pdb
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/bin/Debug/net5.0/CancunHotel.Domain.deps.json
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/bin/Debug/net5.0/CancunHotel.Domain.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/bin/Debug/net5.0/ref/CancunHotel.Domain.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/bin/Debug/net5.0/CancunHotel.Domain.pdb
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.csproj.AssemblyReference.cache
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.AssemblyInfoInputs.cache
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.AssemblyInfo.cs
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.csproj.CoreCompileInputs.cache
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/ref/CancunHotel.Domain.dll
+/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/Debug/net5.0/CancunHotel.Domain.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {}
+    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {}
   },
   "projects": {
-    "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
+    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
+        "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
         "projectName": "CancunHotel.Domain",
-        "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
+        "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
         "packagesPath": "/Users/carlosandres/.nuget/packages/",
-        "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/obj/",
+        "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/carlosandres/.config/NuGet/NuGet.Config"
