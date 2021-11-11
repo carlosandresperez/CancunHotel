@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BookingService\" />
+    <None Remove="Booking\Service\" />
+    <None Remove="BookingService\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BookingService\" />
+    <Folder Include="BookingService\Implementation\" />
+    <Folder Include="BookingService\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CancunHotel.Domain\CancunHotel.Domain.csproj" />
+    <ProjectReference Include="..\CancunHotel.Shared\CancunHotel.Shared.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CancunHotel.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CancunHotel.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CancunHotel.Domain.dll": {}
+        }
+      },
+      "CancunHotel.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CancunHotel.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CancunHotel.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CancunHotel.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CancunHotel.Domain/CancunHotel.Domain.csproj",
+      "msbuildProject": "../CancunHotel.Domain/CancunHotel.Domain.csproj"
+    },
+    "CancunHotel.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CancunHotel.Shared/CancunHotel.Shared.csproj",
+      "msbuildProject": "../CancunHotel.Shared/CancunHotel.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CancunHotel.Domain >= 1.0.0",
+      "CancunHotel.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/carlosandres/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj",
+      "projectName": "CancunHotel.Services",
+      "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj",
+      "packagesPath": "/Users/carlosandres/.nuget/packages/",
+      "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Services/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/carlosandres/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
+              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj"
+            },
+            "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj": {
+              "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/AltenTest/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
