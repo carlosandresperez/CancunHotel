@@ -7,5 +7,3 @@
 - I allowed reservations to be created on the same day of the system.
 - The api has the Swagger configured to show the available APIs.
 - I did not add a log option, but specified a comment where I thought it might be needed.
-
-Translated with www.DeepL.com/Translator (free version)
