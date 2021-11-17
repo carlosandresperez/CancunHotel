@@ -8,6 +8,7 @@ namespace CancunHotel.Services.BookingService.Repository
     {
         Task<Booking> GetBooking(string bookingId);
         Task<bool> CheckAvailability(DateTime startDate, DateTime endDate);
+        Task<bool> CheckAvailabilityToModify(DateTime startDate, DateTime endDate, string bookingId);
         Task<Booking> AddReservation(Booking booking);
         Task<bool> ModifyReservation(Booking booking);
         Task<bool> CancelReservation(string reservationId);

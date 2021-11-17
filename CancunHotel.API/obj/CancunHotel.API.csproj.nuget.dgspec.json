@@ -1,39 +1,44 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/CancunHotel.API.csproj": {}
+    "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.API\\CancunHotel.API.csproj": {}
   },
   "projects": {
-    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/CancunHotel.API.csproj": {
+    "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.API\\CancunHotel.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/CancunHotel.API.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.API\\CancunHotel.API.csproj",
         "projectName": "CancunHotel.API",
-        "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/CancunHotel.API.csproj",
-        "packagesPath": "/Users/carlosandres/.nuget/packages/",
-        "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.API/obj/",
+        "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.API\\CancunHotel.API.csproj",
+        "packagesPath": "C:\\Users\\Carlos Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/carlosandres/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Carlos Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
-                "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj"
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj"
               },
-              "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj": {
-                "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj"
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj"
               },
-              "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj": {
-                "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj"
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Services\\CancunHotel.Services.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Services\\CancunHotel.Services.csproj"
+              },
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj"
               }
             }
           }
@@ -48,6 +53,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -71,26 +86,112 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
+    "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
-        "projectName": "CancunHotel.Domain",
-        "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj",
-        "packagesPath": "/Users/carlosandres/.nuget/packages/",
-        "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/obj/",
+        "projectUniqueName": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj",
+        "projectName": "CancunHotel.Data",
+        "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj",
+        "packagesPath": "C:\\Users\\Carlos Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/carlosandres/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Carlos Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj",
+        "projectName": "CancunHotel.Domain",
+        "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj",
+        "packagesPath": "C:\\Users\\Carlos Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,37 +224,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj": {
+    "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Services\\CancunHotel.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Services\\CancunHotel.Services.csproj",
         "projectName": "CancunHotel.Services",
-        "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/CancunHotel.Services.csproj",
-        "packagesPath": "/Users/carlosandres/.nuget/packages/",
-        "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Services/obj/",
+        "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Services\\CancunHotel.Services.csproj",
+        "packagesPath": "C:\\Users\\Carlos Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/carlosandres/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Carlos Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj": {
-                "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Domain/CancunHotel.Domain.csproj"
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Data\\CancunHotel.Data.csproj"
               },
-              "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj": {
-                "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj"
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Domain\\CancunHotel.Domain.csproj"
+              },
+              "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj": {
+                "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj"
               }
             }
           }
@@ -182,26 +288,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj": {
+    "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj",
         "projectName": "CancunHotel.Shared",
-        "projectPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/CancunHotel.Shared.csproj",
-        "packagesPath": "/Users/carlosandres/.nuget/packages/",
-        "outputPath": "/Users/carlosandres/Documents/Desarrollo.nosync/Github/CancunHotel/CancunHotel.Shared/obj/",
+        "projectPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\CancunHotel.Shared.csproj",
+        "packagesPath": "C:\\Users\\Carlos Andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Andres\\Documents\\GitHub\\CancunHotel\\CancunHotel.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/carlosandres/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Carlos Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -234,7 +342,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

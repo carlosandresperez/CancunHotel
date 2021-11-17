@@ -18,12 +18,20 @@ namespace CancunHotel.Services.BookingService.Implementation
         {
             try
             {
-                //Validate data
                 var validation = ValidateAvailability(booking.StartDate, booking.EndDate);
                 if (validation.Success)
                 {
-                    var result = await bookingRepository.AddReservation(booking);
-                    return Response<Booking>.CreateSuccessfulResponse<Response<Booking>>(result);
+                    var check = await bookingRepository.CheckAvailability(booking.StartDate, booking.EndDate);
+                    if (check)
+                    {
+                        var result = await bookingRepository.AddReservation(booking);
+                        return Response<Booking>.CreateSuccessfulResponse<Response<Booking>>(result);
+                    }
+                    else
+                    {
+                        return Response<Booking>.CreateFailedResponse<Response<Booking>>("The range of dates selected are not available.");
+                    }
+                    
                 }
                 else
                 {
@@ -86,17 +94,34 @@ namespace CancunHotel.Services.BookingService.Implementation
         {
             try
             {
-                var message = "";
-                var result = await bookingRepository.ModifyReservation(booking);
-                if (result)
+                var validation = ValidateAvailability(booking.StartDate, booking.EndDate);
+                if (validation.Success)
                 {
-                    message = $"Reservation {booking.Id} modified";
+                    var check = await bookingRepository.CheckAvailabilityToModify(booking.StartDate, booking.EndDate, booking.Id);
+                    if (check)
+                    {
+                        var message = "";
+                        var result = await bookingRepository.ModifyReservation(booking);
+                        if (result)
+                        {
+                            message = $"Reservation {booking.Id} modified";
+                        }
+                        else
+                        {
+                            message = $"Coult not modify the reservation {booking.Id}";
+                        }
+                        return Response<string>.CreateSuccessfulResponse<Response<string>>(message);
+                    }
+                    else
+                    {
+                        return Response<string>.CreateFailedResponse<Response<string>>("The range of dates selected are not available.");
+                    }
                 }
                 else
                 {
-                    message = $"Coult not modify the reservation {booking.Id}";
+                    return Response<string>.CreateFailedResponse<Response<string>>(validation.Message);
                 }
-                return Response<string>.CreateSuccessfulResponse<Response<string>>(message);
+
             }
             catch (Exception)
             {
